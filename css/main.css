@@ -26,16 +26,14 @@ body {
 header {
 	height: 800px;
 	background: url('../img/tarah4.jpeg'); 
-	background-size: contain;
-    background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 }
 header h1{
 	font-family: 'Lora', serif;
-	font-size: 40px;
-	line-height: 140px;
+	font-size: 30px;
 	color: #FF9B21;
-	width: 800px;
+	padding: 65px 0 65px 25px;
 }
 header h1 span{
 	color: #C5CFD6;
@@ -55,18 +53,6 @@ nav ul li a {
 	padding-left: 50px; 
 }
 
-
-
-/*#contact ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-#contact li {
-	display: inline-block;
-	margin-right: 1px;
-}*/ 
-
 /***** ABOUT *****/
 
 #about .full-width{
@@ -82,7 +68,7 @@ nav ul li a {
 
 #about p{
 	font-size: 21px;
-	color: ;
+	color: #7f7f7f;
 	line-height: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -101,6 +87,7 @@ nav ul li a {
 
 #work img {
 	padding-bottom: 30px;
+	width: 80px;
 }
 
 #work h3 {
@@ -120,51 +107,23 @@ nav ul li a {
 
 /***** CONTACT *****/
 
-#contact {
-	background-color: #E9EFF2;
-    margin: 100px;
-    border: 12px solid #000000;
-}
-#contact .resize{
-	max-width: 50%;
-	max-height: 50%;
-}
 #contact .full-width {
-	padding: 110px 0;
+	padding: 100px 0;
 }
-#contact .half-width {
-    padding: 50px;
-    float: right;
+#contact img#contact-img {
+	margin-left: 125px;
+	max-width: 50%;
+	border: 12px solid #000000;
 }
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-	padding-left: 115px;
-}
-#contact #envelope {
-	padding: 0 10px 0 115px;
+#contact h2, #contact ul {
+	padding-left: 100px;
 }
 #contact h2 {
 	font-family: 'Lora', serif;
-    color: #ffcc4c;
+    color: #68A0A6;
 	font-size: 36px;
 	line-height: 44px;
-}
-#contact #email-header {
-	font-size: 32px;
-	font-weight: 400;
-	line-height: 44px;
-	margin: -30px 0 5px 0;
-}
-#contact #socialmedia-header{
-	font-weight: bold;
-	font-size: 29px;
-	line-height: 44px;
-	margin: 40px 0 0 0;
-}
-#contact a{
-	text-decoration: none;
-	color: #ffcc4c;
-	font-size: 28px;
-	font-weight: bold;
+	margin: -30ps 0 5px 0;
 }
 #contact ul {
 	list-style: none;
@@ -173,6 +132,17 @@ nav ul li a {
 	display: inline-block;
 }
 #contact ul img {
-	font-size: 32px;
-	padding-right: 48px;
+	width: 50px;
+	padding-right: 80px;
+}
+
+/**** FOOTER *****/
+footer {
+	text-align: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #68A0A6;
+	font-size: 24px;
 }
